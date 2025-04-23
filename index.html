@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <!-- Add any necessary CSS files or stylesheets here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Event Management System</h1>
+        <!-- You can add navigation links here if needed -->
+    </header>
+
+    <main>
+        <!-- Your main content goes here -->
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <!-- Display upcoming events here -->
+        </section>
+
+        <section id="create-event">
+            <h2>Create Event</h2>
+            <!-- Form to create a new event -->
+            <form action="create_event.php" method="POST">
+                <label for="event-name">Event Name:</label>
+                <input type="text" id="event-name" name="event-name" required>
+                <!-- Add more fields as needed -->
+                <button type="submit">Create Event</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2024 Event Management System. All rights reserved.</p>
+    </footer>
+    
+    <!-- Add any necessary JavaScript files or scripts here -->
+    <script src="scripts.js"></script>
+</body>
+</html>
